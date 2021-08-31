@@ -13,7 +13,6 @@ class CreateOrderView(generic.CreateView):
 
 class UpdateOrderView(generic.UpdateView):
     model = Order
-    fields = "__all__"
     template_name = "datetimepoc/create_order.html"
     form_class = NewOrderForm
 
